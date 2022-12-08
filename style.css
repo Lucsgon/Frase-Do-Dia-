@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 250, 250);
+    color: rgb(165, 15, 10);
+}
+
+button {
+    justify-self: center;
+    font-size: 1.5em;
+    color: rgb(47, 231, 23);
+    background-color: #323232;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px rgb(51, 13, 221) solid;
+}
+
+p {
+    margin-top: 0;
+}
+
+.frase {
+    font-size: 2em;
+}
+
+.autor {
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.posCr {
+display: grid;
+height: 100vh;
+place-content: center;
+margin-right: 25%;
+margin-left: 25%;
+}   
